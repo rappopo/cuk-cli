@@ -5,8 +5,8 @@ const path = require('path')
 const fs = require('fs-extra')
 
 describe('copyTemplate', () => {
-  const src = process.cwd() + '/__test__/dummy/copy/src/file.txt'
-  const dest = process.cwd() + '/__test__/dummy/copy/dest/file.txt'
+  const src = process.cwd() + '/test/dummy/copy/src/file.txt'
+  const dest = process.cwd() + '/test/dummy/copy/dest/file.txt'
 
   beforeEach(() => {
     fs.emptyDirSync(path.dirname(dest))
@@ -57,7 +57,7 @@ describe('copyTemplate', () => {
 
 describe('getAllApps', () => {
   test('There are two apps here', () => {
-    const apps = misc.getAllApps(process.cwd() + '/__test__/dummy/valid_apps')
+    const apps = misc.getAllApps(process.cwd() + '/test/dummy/valid_apps')
     expect(apps).toHaveLength(2)
   })
 
@@ -67,12 +67,12 @@ describe('getAllApps', () => {
   })
 
   test('But there isn\'t any here', () => {
-    const apps = misc.getAllApps(process.cwd() + '/__test__/dummy/invalid_apps')
+    const apps = misc.getAllApps(process.cwd() + '/test/dummy/invalid_apps')
     expect(apps).toHaveLength(0)
   })
 
   test('In-package apps doesn\'t count also', () => {
-    const apps = misc.getAllApps(process.cwd() + '/__test__/dummy/in_pkg_apps')
+    const apps = misc.getAllApps(process.cwd() + '/test/dummy/in_pkg_apps')
     expect(apps).toHaveLength(0)
   })
 })
