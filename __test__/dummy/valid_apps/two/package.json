@@ -1,0 +1,6 @@
+{
+  "name": "vtwo",
+  "dependencies": {
+    "@rappopo/cuk": "."
+  }
+}

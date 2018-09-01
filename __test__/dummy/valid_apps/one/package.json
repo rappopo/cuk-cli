@@ -1,0 +1,6 @@
+{
+  "name": "vone",
+  "dependencies": {
+    "@rappopo/cuk": "."
+  }
+}
