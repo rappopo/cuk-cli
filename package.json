@@ -1,7 +1,7 @@
 {
   "name": "@rappopo/cuk-cli",
-  "version": "0.0.1",
-  "description": "CLI for @rappopo/cuk: generator & tools",
+  "version": "0.0.2",
+  "description": "Rappopo CUK Command Line Interface (CLI)",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage"

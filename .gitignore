@@ -5,5 +5,4 @@ nodemon.json
 .node_history
 .DS_STORE
 .npmignore
-sftp-config*
 package-lock.json
