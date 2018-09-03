@@ -1,5 +1,10 @@
 ## Changelog
 
+### 0.0.4
+
+- Adding app type on create: rest, webapp & custom
+- Change exec to spawn for child_process
+
 ### 0.0.3
 
 - Adding README.md, LICENSE.md & CHANGELOG.md

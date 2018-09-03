@@ -1,6 +1,6 @@
 {
   "name": "@rappopo/cuk-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Rappopo CUK Command Line Interface (CLI)",
   "main": "index.js",
   "scripts": {
